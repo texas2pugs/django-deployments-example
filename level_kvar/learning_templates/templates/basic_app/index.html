@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
+    <h1>Bonvolu al index.html</h1>
+    {{ text|cut:'mondo' }}
+    {{ number|add:"99" }}
+  {% endblock %}
